@@ -1,0 +1,12 @@
+{
+  "name": "bccrypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --watch scss/index.scss styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

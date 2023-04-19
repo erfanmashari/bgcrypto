@@ -1,0 +1,143 @@
+.capture-future {
+  margin-top: 800px;
+  padding: 0 9.5rem;
+
+  h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 53px;
+    text-align: center;
+  }
+
+  .discover-products {
+    width: 305px;
+    height: 76px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    gap: 40px;
+    margin-bottom: 2rem;
+  }
+
+  .dozens {
+    background: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0) -4.8%,
+      #c52650 99.98%
+    );
+    padding: 2.5rem 2rem;
+    border-radius: 25px;
+    gap: 10rem;
+    backdrop-filter: blur(115px);
+    position: relative;
+
+    h3 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 38px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      z-index: 50;
+    }
+
+    img {
+      position: absolute;
+      width: 246px;
+      height: 322px;
+      right: 0;
+      bottom: -40px;
+      filter: blur(2px);
+      opacity: 40%;
+    }
+  }
+
+  .metaexchange {
+    padding: 2.5rem 2rem;
+    border-radius: 25px;
+    backdrop-filter: blur(115px);
+    position: relative;
+    background: linear-gradient(305.91deg, #4d1887 24.47%, #0a0a0b 107.24%);
+    gap: 10px;
+    overflow: hidden;
+
+    h3 {
+      font-weight: 600;
+      font-size: 28px;
+      z-index: 50;
+    }
+
+    img {
+      width: 100%;
+      position: absolute;
+      bottom: -70px;
+      right: 0;
+    }
+  }
+
+  .the-new {
+    padding: 4rem 3rem;
+    background: linear-gradient(
+      93.53deg,
+      #6b2fcc -3.48%,
+      rgba(60, 42, 47, 0) 107.93%
+    );
+    border-radius: 25px;
+    gap: 7rem;
+    z-index: 30;
+    position: relative;
+
+    h3 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 38px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .candles {
+      position: absolute;
+      width: 726px;
+      height: 473px;
+      right: -40px;
+      bottom: -80px;
+    }
+
+    .circle {
+      position: absolute;
+      width: 547px;
+      height: 18px;
+      right: -40px;
+      bottom: -100px;
+    }
+  }
+}
+
+@media (max-width: "640px") {
+  .capture-future {
+    margin-top: 0px;
+    padding: 2rem;
+
+    .dozens {
+      gap: 2rem;
+    }
+
+  .the-new {
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+    h3, p {
+      text-align: center;
+    }
+  }
+}

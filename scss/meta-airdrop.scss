@@ -1,0 +1,47 @@
+.meta-airdrop {
+  height: 585px;
+  background: #212121;
+  margin-top: 160px;
+  position: relative;
+
+  h3 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 53px;
+    text-align: center;
+  }
+
+  .coin-left-1 {
+    position: absolute;
+    top: 130px;
+    left: 0;
+  }
+
+  .coin-left-2 {
+    position: absolute;
+    bottom: 60px;
+    left: 30%;
+  }
+
+  .coin-right-1 {
+    position: absolute;
+    top: 70px;
+    right: 0;
+  }
+
+  .coin-right-2 {
+    position: absolute;
+    width: 98px;
+    height: 100px;
+    top: 32px;
+    right: 30%;
+  }
+}
+
+@media (max-width: "640px") {
+  .meta-airdrop {
+    height: fit-content;
+    padding: 3rem;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,190 @@
+.features {
+  position: relative;
+  padding: 5rem 9.5rem;
+
+  h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+    z-index: 10;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    z-index: 10;
+  }
+
+  .maximum-efficiency {
+    gap: 11rem;
+    padding: 2rem 1.5rem;
+    background: linear-gradient(50.62deg, #26c1dd -41.32%, #13264d 40.81%);
+    border-radius: 15px;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 5%;
+    }
+  }
+
+  .decentralized {
+    padding: 2rem 1.5rem;
+    background: linear-gradient(50.62deg, #26c1dd -41.32%, #15326f 40.81%);
+    border-radius: 15px;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .near-instant {
+    gap: 8rem;
+    padding: 2rem 1.5rem;
+    background: linear-gradient(
+      249.86deg,
+      #13119a -17.16%,
+      #1c384a 47.18%,
+      #075661 103.96%
+    );
+    border-radius: 15px;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .structure {
+    padding: 2rem 1.5rem;
+    background: linear-gradient(
+      244.42deg,
+      #172c74 60.9%,
+      rgba(9, 82, 77, 0.25) 113.53%
+    );
+    border-radius: 15px;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .join {
+    padding: 5rem;
+    background: linear-gradient(0deg, #121f3f, #121f3f),
+      linear-gradient(0deg, #0b2362, #0b2362), #0b2362;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+
+    .white-circle {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .blue-circle {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    h2 {
+      width: 50%;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 48px;
+      text-align: center;
+
+      span {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+      }
+    }
+
+    p {
+      width: 50%;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+    .profiles {
+      width: 280px;
+      height: 120px;
+      position: static;
+    }
+
+    .members-num {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: "640px") {
+  .features {
+    padding: 2rem;
+
+    .maximum-efficiency,
+    .structure,
+    .decentralized,
+    .near-instant {
+      gap: 2rem !important;
+      text-align: center;
+    }
+
+    .join {
+      padding: 2rem;
+
+      h2,
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .white-circle,
+    .blue-circle {
+      display: block;
+    }
+
+    .text-container {
+      gap: 1rem !important;
+    }
+
+    .members-num {
+      font-size: 48px !important;
+    }
+
+    .profiles-container {
+      .profiles-img-div {
+        display: none;
+      }
+
+      div {
+        width: 100% !important;
+        gap: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.header {
+  gap: 16px;
+  padding: 5rem 0 0 9.5rem;
+
+  h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 53px;
+  }
+
+  .button-bg-blue {
+    width: 200px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #0348fd;
+    border-radius: 15px;
+    margin-top: 12px;
+  }
+
+  .discover {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .hero-back {
+    position: absolute;
+    width: 1048px;
+    height: 531px;
+    right: 0;
+    top: 159px;
+  }
+
+  .hero-coin {
+    width: 450px;
+    height: 410;
+    position: absolute;
+    top: 135px;
+    right: 250px;
+  }
+
+  .light {
+    position: absolute;
+    width: 248px;
+    height: 217px;
+    left: -78px;
+    top: 380px;
+  }
+
+  .hero-press-btn {
+    position: absolute;
+    width: 94px;
+    height: 77px;
+    left: 281px;
+    top: 654px;
+  }
+
+  .small-screen-img {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: "640px") {
+  .header {
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}

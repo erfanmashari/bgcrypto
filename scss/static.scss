@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  cursor: pointer;
+  text-align: center;
+}
+
+.w-full,
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-66,
+.sm-w-66 {
+  width: 66%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-33,
+.sm-w-33 {
+  width: 33%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row,
+.sm-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-1p25 {
+  gap: 1.25rem;
+}
+
+.gap-1p5 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.list-style-type-none {
+  list-style-type: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (max-width: "640px") {
+  .sm-w-66 {
+    width: 100%;
+  }
+
+  .sm-w-33 {
+    width: 100%;
+  }
+
+  .sm-flex-row {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
