@@ -31,7 +31,8 @@ ul {
   width: 66%;
 }
 
-.w-50 {
+.w-50,
+.sm-w-50 {
   width: 50%;
 }
 
@@ -129,6 +130,10 @@ ul {
 
 @media (max-width: "640px") {
   .sm-w-66 {
+    width: 100%;
+  }
+
+  .sm-w-50 {
     width: 100%;
   }
 
