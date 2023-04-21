@@ -662,6 +662,31 @@ ul {
   top: 5120px;
   left: -2%;
 }
+.opportunity .google-play {
+  position: absolute;
+  top: 5002px;
+  left: 0;
+}
+.opportunity .mobile-right {
+  position: absolute;
+  top: 5097px;
+  right: 0;
+}
+.opportunity .mobile {
+  position: absolute;
+  top: 5259px;
+  left: 327px;
+}
+.opportunity .mobile-left {
+  position: absolute;
+  top: 5587px;
+  left: 0;
+}
+.opportunity .app-store {
+  position: absolute;
+  top: 5428px;
+  left: 684px;
+}
 .opportunity .apps-div {
   position: relative;
   margin-top: 915px;
