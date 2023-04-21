@@ -85,3 +85,14 @@
     }
   }
 }
+
+@media (max-width: "640px") {
+  .opportunity {
+    padding: 2rem;
+
+    .apps-div {
+      position: relative;
+      margin-top: 50px;
+    }
+  }
+}

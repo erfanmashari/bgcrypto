@@ -11,3 +11,9 @@
     font-family: "Inter", sans-serif;
   }
 }
+
+@media (max-width: "640px") {
+  .move-forward {
+    padding: 2rem;
+  }
+}

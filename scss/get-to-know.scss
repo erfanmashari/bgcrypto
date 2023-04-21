@@ -76,3 +76,13 @@
     }
   }
 }
+
+@media (max-width: "640px") {
+  .get-to-know {
+    padding: 2rem;
+
+    .faq {
+      padding: 2rem;
+    }
+  }
+}

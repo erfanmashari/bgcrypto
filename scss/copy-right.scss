@@ -8,3 +8,10 @@
     line-height: 18px;
   }
 }
+
+@media (max-width: "640px") {
+  .copy-right {
+    padding: 2rem;
+    text-align: center;
+  }
+}
