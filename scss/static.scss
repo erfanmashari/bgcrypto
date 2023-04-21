@@ -13,6 +13,10 @@ button {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .w-full,
 .w-100 {
   width: 100%;
@@ -85,6 +89,10 @@ button {
 
 .items-end {
   align-items: flex-end;
+}
+
+.gap-0p5 {
+  gap: 0.5rem;
 }
 
 .gap-1 {

@@ -1,0 +1,36 @@
+.footer {
+  padding: 5rem 9.5rem 2rem 9.5rem;
+
+  .bgcrypto {
+    width: 131px;
+    height: 27px;
+  }
+
+  .list-header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  ul {
+    margin-left: 16px;
+    list-style-type: disc;
+
+    li {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 24px;
+    }
+  }
+
+  .social-buttons-container {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+    button {
+        padding: 8px;
+        border-radius: 10px;
+        border: 1px solid rgba($color: #fff, $alpha: 0.56);
+    }
+  }
+}

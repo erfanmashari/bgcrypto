@@ -1,0 +1,47 @@
+.opportunity {
+  padding: 5rem 9.5rem 0 9.5rem;
+  text-align: center;
+
+  h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 53px;
+  }
+
+  .hit-saturation {
+    width: 1588px;
+    height: 1009px;
+    position: absolute;
+    top: 5120px;
+    left: -2%;
+  }
+
+  .apps-div {
+    position: relative;
+    margin-top: 915px;
+    z-index: 50;
+
+    h3 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 38px;
+      margin-top: 1rem;
+    }
+
+    .app-buttons {
+      button {
+        width: 263px;
+        height: 44px;
+        border-radius: 15px;
+        background-color: #353535;
+        padding: 8px 16px;
+
+        p {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

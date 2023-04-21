@@ -1,17 +1,17 @@
 html {
-    width: 100vw !important;
+  width: 100vw !important;
 }
 
 body {
-    width: 100vw !important;
-    color: #fff;
-    background-color: #0D0D0E;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+  width: 100vw !important;
+  color: #fff;
+  background-color: #0d0d0e;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 
-    .small-screen-img {
-        display: none;
-    }
+  .small-screen-img {
+    display: none;
+  }
 }
 
 @import "static.scss";
@@ -22,13 +22,18 @@ body {
 @import "capture-future.scss";
 @import "meta-airdrop.scss";
 @import "features.scss";
+@import "move-forward.scss";
+@import "opportunity.scss";
+@import "get-to-know.scss";
+@import "footer.scss";
+@import "copy-right.scss";
 
 @media (max-width: "640px") {
-    img {
-        display: none;
-    }
+  img {
+    display: none;
+  }
 
-    .small-screen-img {
-        display: block !important;
-    }
+  .small-screen-img {
+    display: block !important;
+  }
 }

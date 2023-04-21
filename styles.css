@@ -5,7 +5,7 @@ html {
 body {
   width: 100vw !important;
   color: #fff;
-  background-color: #0D0D0E;
+  background-color: #0d0d0e;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
@@ -26,6 +26,10 @@ button {
   background-color: inherit;
   cursor: pointer;
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .w-full,
@@ -100,6 +104,10 @@ button {
 
 .items-end {
   align-items: flex-end;
+}
+
+.gap-0p5 {
+  gap: 0.5rem;
 }
 
 .gap-1 {
@@ -436,6 +444,7 @@ button {
   background: #212121;
   margin-top: 160px;
   position: relative;
+  background-image: url("../images/metaairdrop back.png");
 }
 .meta-airdrop h3 {
   font-weight: 600;
@@ -475,7 +484,7 @@ button {
 }
 .features {
   position: relative;
-  padding: 5rem 9.5rem;
+  padding: 5rem 9.5rem 0 9.5rem;
 }
 .features h3 {
   font-weight: 600;
@@ -624,6 +633,166 @@ button {
     gap: 2rem;
   }
 }
+.move-forward {
+  position: relative;
+  padding: 5rem 9.5rem 0 9.5rem;
+  text-align: center;
+  gap: 10px;
+}
+.move-forward h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  font-family: "Inter", sans-serif;
+}
+
+.opportunity {
+  padding: 5rem 9.5rem 0 9.5rem;
+  text-align: center;
+}
+.opportunity h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 53px;
+}
+.opportunity .hit-saturation {
+  width: 1588px;
+  height: 1009px;
+  position: absolute;
+  top: 5120px;
+  left: -2%;
+}
+.opportunity .apps-div {
+  position: relative;
+  margin-top: 915px;
+  z-index: 50;
+}
+.opportunity .apps-div h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  margin-top: 1rem;
+}
+.opportunity .apps-div .app-buttons button {
+  width: 263px;
+  height: 44px;
+  border-radius: 15px;
+  background-color: #353535;
+  padding: 8px 16px;
+}
+.opportunity .apps-div .app-buttons button p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.get-to-know {
+  padding: 5rem 9.5rem 0 9.5rem;
+  text-align: center;
+}
+.get-to-know h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+.get-to-know .need-help {
+  padding: 2rem 1rem;
+  border-radius: 20px;
+  background-color: #1f1f1f;
+}
+.get-to-know .need-help img {
+  width: 83px;
+  height: 74px;
+}
+.get-to-know .need-help .text-container {
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+}
+.get-to-know .need-help .text-container h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+.get-to-know .need-help .text-container p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+.get-to-know .need-help .text-container button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #23ddf5;
+  margin-top: 1rem;
+}
+.get-to-know .need-help .text-container button img {
+  width: 30px;
+  height: 14px;
+  margin-left: 4px;
+}
+.get-to-know .faq {
+  border-radius: 20px;
+  background-color: #1f1f1f;
+  padding: 6rem;
+  text-align: left;
+}
+.get-to-know .faq h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+.get-to-know .faq .faq-list li {
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  border-bottom: 1px solid #454545;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 5rem 9.5rem 2rem 9.5rem;
+}
+.footer .bgcrypto {
+  width: 131px;
+  height: 27px;
+}
+.footer .list-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer ul {
+  margin-left: 16px;
+  list-style-type: disc;
+}
+.footer ul li {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+}
+.footer .social-buttons-container {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.footer .social-buttons-container button {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.56);
+}
+
+.copy-right {
+  padding: 2rem 9.5rem;
+  background-color: #353535;
+}
+.copy-right p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
 @media (max-width: 640px) {
   img {
     display: none;
