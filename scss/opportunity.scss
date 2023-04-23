@@ -9,7 +9,7 @@
   }
 
   .hit-saturation {
-    width: 1588px;
+    width: 110%;
     height: 1009px;
     position: absolute;
     top: 5120px;
@@ -17,15 +17,15 @@
   }
 
   .google-play {
-    // width: 580px;
+    width: 38%;
     // height: 426px;
     position: absolute;
     top: 5002px;
-    left: 0;
+    left: 5%;
   }
 
   .mobile-right {
-    // width: 533px;
+    width: 25%;
     // height: 333px;
     position: absolute;
     top: 5097px;
@@ -33,15 +33,15 @@
   }
 
   .mobile {
-    // width: 651px;
+    width: 45%;
     // height: 404px;
     position: absolute;
     top: 5259px;
-    left: 327px;
+    left: 30%;
   }
 
   .mobile-left {
-    // width: 684px;
+    width: 30%;
     // height: 492px;
     position: absolute;
     top: 5587px;
@@ -49,16 +49,16 @@
   }
 
   .app-store {
-    // width: 610px;
+    width: 38%;
     // height: 450px;
     position: absolute;
     top: 5428px;
-    left: 684px;
+    right: 12%;
   }
 
   .apps-div {
     position: relative;
-    margin-top: 915px;
+    margin-top: 80%;
     z-index: 50;
 
     h3 {
@@ -96,3 +96,32 @@
     }
   }
 }
+
+// @media (min-width: "1440px") {
+//   .opportunity {
+//     .hit-saturation {
+//       // height: max-content;
+//       top: 5420px;
+//     }
+
+//     .google-play {
+//       top: 5302px;
+//     }
+
+//     .mobile-right {
+//       top: 5420px;
+//     }
+
+//     .mobile {
+//       top: 6059px;
+//     }
+
+//     .mobile-left {
+//       top: 6587px;
+//     }
+
+//     .app-store {
+//       top: 6328px;
+//     }
+//   }
+// }

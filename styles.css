@@ -242,31 +242,27 @@ ul {
 }
 .header .hero-back {
   position: absolute;
-  width: 1048px;
-  height: 531px;
+  width: 55%;
   right: 0;
   top: 159px;
 }
 .header .hero-coin {
-  width: 450px;
-  height: 410;
+  width: 25%;
   position: absolute;
-  top: 135px;
-  right: 250px;
+  top: 150px;
+  right: 12%;
 }
 .header .light {
   position: absolute;
-  width: 248px;
-  height: 217px;
-  left: -78px;
-  top: 380px;
+  width: 16%;
+  left: -5%;
+  top: 60%;
 }
 .header .hero-press-btn {
   position: absolute;
-  width: 94px;
-  height: 77px;
-  left: 281px;
-  top: 654px;
+  width: 7%;
+  left: 20%;
+  top: 105%;
 }
 .header .small-screen-img {
   width: 300px;
@@ -286,48 +282,46 @@ ul {
   position: absolute;
 }
 .middle-images .middle-1 {
-  width: 432px;
-  height: 314px;
-  top: 687px;
+  width: 27%;
+  top: 108%;
   right: 0;
 }
 .middle-images .middle-2 {
-  width: 273px;
-  height: 312px;
-  top: 800px;
-  left: 563px;
+  width: 17%;
+  top: 122%;
+  left: 38%;
 }
 .middle-images .middle-4 {
-  width: 179px;
-  height: 312px;
-  top: 807px;
-  left: 448px;
+  width: 10%;
+  top: 125%;
+  left: 31%;
 }
 .middle-images .middle-5 {
-  width: 310x;
-  height: 312px;
-  top: 1014px;
-  left: 916px;
+  width: 17%;
+  top: 156%;
+  left: 60%;
 }
 .middle-images .middle-6 {
-  top: 1030px;
-  left: 798px;
+  width: 10%;
+  top: 160%;
+  left: 53%;
   z-index: 50;
 }
 .middle-images .middle-7 {
-  width: 78px;
-  height: 71px;
-  top: 1175px;
-  left: 639px;
+  width: 5%;
+  top: 183%;
+  left: 43%;
 }
 .middle-images .middle-3 {
-  top: 800px;
+  width: 30%;
+  top: 125%;
   left: 0;
 }
 
 .capture-future {
-  margin-top: 950px;
+  margin-top: 63%;
   padding: 0 9.5rem;
+  z-index: 100;
 }
 .capture-future h2 {
   font-weight: 600;
@@ -665,40 +659,45 @@ ul {
   line-height: 53px;
 }
 .opportunity .hit-saturation {
-  width: 1588px;
+  width: 110%;
   height: 1009px;
   position: absolute;
   top: 5120px;
   left: -2%;
 }
 .opportunity .google-play {
+  width: 38%;
   position: absolute;
   top: 5002px;
-  left: 0;
+  left: 5%;
 }
 .opportunity .mobile-right {
+  width: 25%;
   position: absolute;
   top: 5097px;
   right: 0;
 }
 .opportunity .mobile {
+  width: 45%;
   position: absolute;
   top: 5259px;
-  left: 327px;
+  left: 30%;
 }
 .opportunity .mobile-left {
+  width: 30%;
   position: absolute;
   top: 5587px;
   left: 0;
 }
 .opportunity .app-store {
+  width: 38%;
   position: absolute;
   top: 5428px;
-  left: 684px;
+  right: 12%;
 }
 .opportunity .apps-div {
   position: relative;
-  margin-top: 915px;
+  margin-top: 80%;
   z-index: 50;
 }
 .opportunity .apps-div h3 {
